@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mais Pesado</h1>
+    <p>Nome da Pessoa 1: <span id="pessoa1"></span></p>
+    <p>Idade da Pessoa 1: <span id="idade1"></span></p>
+    <p>Nome da Pessoa 2: <span id="pessoa2"></span></p>
+    <p>Idade da Pessoa 2: <span id="idade2"></span></p>
+    <p>Quem é mais novo? <span id="novo"></span></p>
+
+    <script>
+        let pessoa1;
+        let idade1;
+        let pessoa2;
+        let idade2;
+        let novo;
+
+        pessoa1 = prompt("Digite o nome da primeira pessoa.")
+        idade1 = prompt("Digite o peso da primeira pessoa.")
+        pessoa2 = prompt("Digite o nome da segunda pessoa.")
+        idade2 = prompt("Digite o peso da primeira pessoa.")
+
+        if (idade1 < idade2){
+            novo = pesso1
+        }else{
+            novo = pessoa2
+        }
+
+        document.getElementById('pessoa1').innerHTML = pessoa1
+        document.getElementById('idade1').innerHTML = idade1
+        document.getElementById('pessoa2').innerHTML = pessoa2
+        document.getElementById('idade2').innerHTML = idade2
+        document.getElementById('novo').innerHTML = novo
+
+
+    </script>
+    
+</body>
+</html>
